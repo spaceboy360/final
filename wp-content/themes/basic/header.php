@@ -8,6 +8,7 @@
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 	<?php wp_head();?>
 </head>
 <body>

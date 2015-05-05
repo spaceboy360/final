@@ -9,7 +9,8 @@ body {
 background-repeat: repeat-y;
 background:url(<?php bloginfo('template_directory'); ?>/images/background.jpg);
 background-color: black;
-font-family: 'Crimson Text', serif;
+/*font-family: 'Crimson Text', serif;*/
+font-family: 'Montserrat', sans-serif;
 }
 
 .container {

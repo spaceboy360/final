@@ -13,7 +13,7 @@ Template Name: Pricing Options
 				
 					<h2>Special Options</h2>
 
-					<div class="col-xs-4">
+					<!-- <div class="col-xs-4">
 						<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/e.png" alt="button logo" >
 					</div>
 
@@ -23,7 +23,7 @@ Template Name: Pricing Options
 
 					<div class="col-xs-4">
 							<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/p.png" alt="button logo" >
-					</div>
+					</div> -->
 					<!-- End images -->
 
 					<div class="col-xs-4">

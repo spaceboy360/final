@@ -19,13 +19,13 @@
 	      	<p class="white"><?php the_field("peopletext");?></p>
           <p class="white"><?php the_field("peopleprice");?></p>
           <?php the_field("peoplesize");?>
-p
+
 
           <div class="col-lg-4"></div> 
 
 
 	      	 <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Go Back</a>
-	      	  <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Add to Cart</a>
+	      	  <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">$25</a>
       </div>
 
       <div class="col-xs-12">
