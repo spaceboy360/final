@@ -19,7 +19,7 @@
 	      	<p class="white"><?php the_field("peopletext");?></p>
           <p class="white"><?php the_field("peopleprice");?></p>
           <p class="white"><?php the_field("peoplesize");?></p>
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque sed, aut ut alias corrupti excepturi necessitatibus inventore facere voluptas porro, officiis, repudiandae vel ipsum minima repellendus culpa est. Eum, obcaecati.</p>
 
           <div class="col-lg-4"></div> 
 
