@@ -1,0 +1,201 @@
+/**
+  Theme Name: Basic Theme
+  Version: 1
+  Author: Trevor
+*/
+
+
+body {  
+background-repeat: repeat-y;
+background:url(<?php bloginfo('template_directory'); ?>/images/background.jpg);
+background-color: black;
+}
+
+.container {
+	background:url(<?php bloginfo('template_directory'); ?>/images/background.jpg);
+}
+
+
+/*Footer*/
+
+.footer {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+	background-color: black;
+	padding-top: 6px;
+}
+
+/*Container Options*/
+
+.down1 {
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pricingoptionsdown {
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+
+.black {
+	color: black;
+}
+
+/*HOVER START*/
+
+.grid_box {
+		width: 300px;
+		height: 300px;
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.grid_box:hover .content{
+		display: block;
+	}
+	.grid_box:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.grid_box .content{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+	.grid_box .bg {
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.grid_box .bg img {
+		
+	}
+
+	/*HOVER END*/
+
+
+/*btn options*/
+
+.centerbtn1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerthis {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*Container moving Options*/
+.moveadcontainerdown {
+	margin-top: 55px;
+}
+
+.movedowndivider1 {
+	margin-top: 60px;
+}
+
+/*Text Options*/
+
+
+.centertext1 {
+	text-align: center;
+	color: white;
+	font-size: 72px;
+	line-height: 65px;
+}
+
+.ad1 {
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	font-weight: lighter;
+	line-height: 6px;
+}
+
+.white {
+	color: white;
+}
+
+.divider1text {
+	color: white;
+	font-size: 22px;
+}
+
+.centertext3 {
+	text-align: center;
+}
+
+/*Image Options*/
+
+.centertopbanner {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagedividerup {
+	margin-top: -18px;
+}
+
+.movedownimagecategories {
+	margin-top: 88px;
+}
+
+/*Navigation Panel*/
+.nav-pills li a:hover { 
+	background-color: transparent;
+	transition: all 0.5s ease;
+		opacity: .5;
+}
+
+.nav-pills li.active a{
+	background-color: transparent;
+}
+
+.nav-pills li a{
+	background-color: transparent;
+}
+
+.nav-pills li.active a:hover { 
+	background-color: transparent;
+	color: none;
+	transition: all 0.5s ease;
+		opacity: .5;
+}
+
+.nav-pills li a:hover { 
+	background-color: transparent;
+	color: none;
+	transition: all 0.5s ease;
+		opacity: .5;
+}
+
+.nav-pills li a:focus { 
+	background-color: transparent;
+	color: none;
+	transition: all 0.5s ease;
+		opacity: .5;
+}
+
+
+a.btn:hover {
+	background-color: transparent;
+}
+
+.fullwidth {
+	width: 100%;
+}
