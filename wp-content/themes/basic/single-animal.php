@@ -15,6 +15,7 @@
        <div class="col-xs-12 col-md-4 col-lg-4 white">
 	       	<img class="img-responsive" src="<?php the_field("animallargephoto");?>" alt="">
 	      	<p class="white"><?php the_field("animaltext");?></p>
+          
 
           <div class="col-lg-4"></div> 
 
