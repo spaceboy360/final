@@ -14,15 +14,15 @@ Template Name: Pricing Options
 					<h2>Special Options</h2>
 
 					<div class="col-xs-4">
-						<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/basic.png" alt="button logo" >
+						<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/e.png" alt="button logo" >
 					</div>
 
 					<div class="col-xs-4">
-							<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/medium.png" alt="button logo" >
+							<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/i.png" alt="button logo" >
 					</div>
 
 					<div class="col-xs-4">
-							<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/premium.png" alt="button logo" >
+							<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/p.png" alt="button logo" >
 					</div>
 					<!-- End images -->
 
