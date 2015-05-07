@@ -2,7 +2,21 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+  <?php 
+
+$args = array(
+  'taxonomy' => 'sizes',
+  ); 
+
+  $categories = get_categories( $args );
+
   
+
+  foreach ($categories as $category){
+   echo $category->cat_name;
+  }
+
+?>
       
 
    <div class="container down1 white">
@@ -19,8 +33,22 @@
 
           <div class="col-lg-4"></div> 
 
+         
+
 	      	 <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Go Back</a>
-	      	  <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">$25</a>
+
+ <!-- select options -->
+
+            <select name="carlist" class="btn btn-primary btn-lg" form="carform">
+                  <option value="1">Small</option>
+                  <option value="2">Medium</option>
+                  <option value="3">Large</option>
+            </select>
+
+ <!-- end select options -->
+
+
+	      	  <a href="<?php bloginfo('url'); ?>/shopping-cart" class="btn btn-primary btn-sm margin2">$25</a>
              
          
       </div>

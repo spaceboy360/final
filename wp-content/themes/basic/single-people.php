@@ -25,7 +25,7 @@
 
 
 	      	 <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Go Back</a>
-	      	  <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">$25</a>
+	      	  <a href="<?php bloginfo('url'); ?>/shopping-cart" class="btn btn-primary btn-sm margin2">$25</a>
       </div>
 
       <div class="col-xs-12">
