@@ -12,7 +12,7 @@ Template Name: Shopping Cart
 			<h2><?php the_title(); ?></h2>
 			<div class="col-xs-12 col-lg-9 black">
 				<div class="well">
-					<h2>THANK YOU FOR BUYING:</h2>
+					<h2>THANK YOU FOR CHOOSING:</h2>
 					<h3>Lady Bug - Small</h3>
 					<a class="btn" href="<?php bloginfo('url'); ?>/home"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/completeorder.png" alt="button logo" ></a>
 				</div>				
