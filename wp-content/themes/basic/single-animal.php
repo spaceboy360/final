@@ -2,7 +2,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <?php 
+ <!--  <?php 
 
 $args = array(
   'taxonomy' => 'sizes',
@@ -16,7 +16,7 @@ $args = array(
    echo $category->cat_name;
   }
 
-?>
+?> -->
       
 
    <div class="container down1 white">

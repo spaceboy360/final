@@ -12,13 +12,15 @@ Template Name: Shopping Cart
 			<h2><?php the_title(); ?></h2>
 			<div class="col-xs-12 col-lg-9 black">
 				<div class="well">
-					<h3>Intermediate Subscription</h3>
+					<h2>THANK YOU FOR BUYING:</h2>
+					<h3>Lady Bug - Small</h3>
+					<a class="btn" href="<?php bloginfo('url'); ?>/home"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/completeorder.png" alt="button logo" ></a>
 				</div>				
 			</div>
 
 			<div class="col-xs-12 col-lg-3">
 				<div class="well">
-					<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/medium.png" alt="button logo" >
+					<img class="img-responsive centerthis" src="<?php bloginfo('template_directory'); ?>/images/bug.jpg" alt="button logo" >
 				</div>				
 			</div>
 		</div>
